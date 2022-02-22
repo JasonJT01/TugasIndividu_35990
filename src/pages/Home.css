@@ -1,0 +1,115 @@
+ion-content {
+    --background: rgb(241, 241, 241);
+}
+
+.titm {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    font-size: small;
+    margin: 20px 10px 0px 10px;
+}
+
+.titm:before,
+.titm:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid grey;
+    margin: 7px 10px 10px 10px;
+}
+
+.type {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.images {
+    margin-bottom: 10px;
+    background-color: rgb(255, 212, 132);
+    border-radius: 50%;
+}
+
+.btnBottom {
+    border-radius: 100%;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+ion-button.btnBottom {
+    height: 50px;
+    margin-left: unset;
+    margin-inline-start: -42px;
+}
+
+.searchButton {
+    color: orange;
+    text-transform: initial;
+}
+
+.guides {
+    color: black;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.guideImg {
+    width: 100%;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 5% 5% 0 / 0 90% 90% 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.flag {
+    width: 25px;
+    height: 25px;
+}
+
+.cards {
+    height: 130px;
+    margin: 0 15px 10px 15px;
+}
+
+.icons {
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+}
+
+.textGuide {
+    width: 100%;
+    height: 130px;
+}
+
+.search {
+    text-decoration: none;
+    color: black;
+}
+
+.searchIcon {
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 425px) {
+    .gridSet {
+        margin-right: 10px;
+    }
+}
+
+.cardSize {
+    height: 100%;
+}
+
+.contentSet {
+    margin-top: 15%;
+}

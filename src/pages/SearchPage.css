@@ -1,0 +1,108 @@
+.cancel {
+    color: grey;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.searchbar {
+    text-decoration: none;
+    --box-shadow: none;
+}
+
+p.title {
+    margin: 15px;
+    font-size: small;
+    color: grey;
+}
+
+.segLab {
+    text-transform: initial;
+    font-weight: bold;
+    color: black;
+}
+
+.cards {
+    width: 95%;
+    height: 130px;
+    margin: 15px 15px 10px 15px;
+}
+
+.displayImg {
+    width: 100%;
+    height: 130px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.textTitle {
+    color: black;
+    font-size: large;
+}
+
+.textDesc {
+    color: grey;
+    font-size: 10px;
+}
+
+.gridSet {
+    margin-right: 10px;
+}
+
+.bgTemp {
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.range {
+    color: lightgray;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.derajat {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    font-size: 23px;
+}
+
+.tempImg {
+    padding: 15px;
+}
+
+.imgTemp1 {
+    background-image: url('/public/assets/icon/salmon.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.imgTemp2 {
+    background-image: url('/public/assets/icon/burger.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.content {
+    padding: 13px 16px;
+}
