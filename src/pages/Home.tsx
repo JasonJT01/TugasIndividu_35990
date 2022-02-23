@@ -1,4 +1,4 @@
-import { IonButton, IonButtons, IonCard, IonCardContent, IonCol, IonContent, IonFab, IonFabButton, IonGrid, IonHeader, IonIcon, IonImg, IonPage, IonRow, IonText, IonToolbar } from '@ionic/react';
+import { IonButton, IonButtons, IonCard, IonCardContent, IonCol, IonContent, IonFab, IonFabButton, IonGrid, IonHeader, IonIcon, IonImg, IonPage, IonRow, IonText, IonTitle, IonToolbar } from '@ionic/react';
 import { copyOutline, qrCodeOutline, searchOutline } from 'ionicons/icons';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -32,7 +32,11 @@ const Home: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonImg src='../assets/icon/home.jpg' className=''></IonImg>
+        <div className='combine'>
+          <IonText class='joule'>Get your Joule. Be <br />Happy.</IonText>
+          <IonText class='explore'>Explore</IonText>
+          <IonImg src='../assets/icon/home.jpg'></IonImg>
+        </div>
         <IonText className='titm'>Search By Type</IonText>
         <IonGrid>
           <IonRow>

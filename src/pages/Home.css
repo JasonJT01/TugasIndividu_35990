@@ -2,6 +2,29 @@ ion-content {
     --background: rgb(241, 241, 241);
 }
 
+.combine {
+    position: relative;
+}
+
+.joule {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    bottom: 30px;
+    left: 20px;
+    font-size: 25px;
+}
+
+.explore {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: small;
+    bottom: 30px;
+    right: 20px;
+}
+
 .titm {
     display: flex;
     flex-direction: row;
@@ -97,7 +120,7 @@ ion-button.btnBottom {
 }
 
 .searchIcon {
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 @media only screen and (max-width: 425px) {
